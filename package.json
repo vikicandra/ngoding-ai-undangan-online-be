@@ -1,0 +1,27 @@
+{
+  "name": "ngodingai-backend",
+  "version": "1.0.0",
+  "description": "undanganonline",
+  "homepage": "https://github.com/vikicandra/ngoding-ai-undangan-online-be#readme",
+  "bugs": {
+    "url": "https://github.com/vikicandra/ngoding-ai-undangan-online-be/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vikicandra/ngoding-ai-undangan-online-be.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "mysql2": "^3.14.3"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "info": {
+    "name": "API Registrasi",
+    "_postman_id": "e2c1a8c4-1234-5678-9abc-d12345678901",
+    "description": "Collection untuk testing API Registrasi",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Registrasi User",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n    \"nama\": \"Budi Santoso\",\n    \"email\": \"budi@example.com\",\n    \"no_telepon\": \"081234567890\"\n}"
+        },
+        "url": {
+          "raw": "http://localhost:8000/api/registrasi",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8000",
+          "path": [
+            "api",
+            "registrasi"
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
